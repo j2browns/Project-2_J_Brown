@@ -55,4 +55,4 @@ Detailed information on golf courses with green fees range and tees, this comple
         
         Plan your next Great River Road trip and explore the USA even more
 
- 
+ Note - as loaded the repo contains the filtered and processed data that is used to create the database (step 1).  The golf_ETL notebook takes considerable time to run because of the large number of API calls.  If desired you can jump ahead to step 2 using the saved data that already exists.
