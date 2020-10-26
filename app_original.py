@@ -56,24 +56,16 @@ golf_data = session.query(*sel).all()
 
 ##putting data into dataframe
 ## done if rather brute force way - opportunity to optimize at later date.
-# golf_df = pd.DataFrame(columns = columns_df)
-golf_dict = []
+golf_df = pd.DataFrame(columns = columns_df)
 print(len(golf_data))
-# for i in range(0, len(golf_data)):
-#     record = golf_data[i]
-#     temp = []
-#     for j in range(0,len(columns_df)):
-#         temp.append(record[j])
-#     golf_df.loc[i]=temp
+for i in range(0, len(golf_data)):
+    record = golf_data[i]
+    temp = []
+    for j in range(0,len(columns_df)):
+        temp.append(record[j])
+    golf_df.loc[i]=temp
 
-# thank you TA Farshad for great suggestion!
-for row in golf_data:
-    row_dict = {}
-    row_dict = row._asdict() #converts row to dictionnary
-    golf_dict.append(row_dict)
-
-
-# golf_dict = golf_df.to_dict(orient = 'records')
+golf_dict = golf_df.to_dict(orient = 'records')
 #############################################################
 #                       FLASK SETUP                        #
 #############################################################
