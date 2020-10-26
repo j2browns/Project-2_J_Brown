@@ -1,0 +1,54 @@
+id,title,count,slug
+1,Alabama,272,alabama
+2,Alaska,16,alaska
+3,Arizona,308,arizona
+4,Arkansas,179,arkansas
+5,California,976,california
+6,Colorado,223,colorado
+7,Connecticut,177,connecticut
+8,Delaware,39,delaware
+9,"District of Columbia",6,districtofcolumbia
+10,Florida,1094,florida
+11,Georgia,432,georgia
+12,Hawaii,84,hawaii
+13,Idaho,92,idaho
+14,Illinois,714,illinois
+15,Indiana,459,indiana
+16,Iowa,380,iowa
+17,Kansas,222,kansas
+18,Kentucky,279,kentucky
+19,Louisiana,156,louisiana
+20,Maine,117,maine
+21,Maryland,86,maryland
+22,Massachusetts,340,massachusetts
+23,Michigan,933,michigan
+24,Minnesota,484,minnesota
+25,Mississippi,162,mississippi
+26,Missouri,319,missouri
+27,Montana,86,montana
+28,Nebraska,180,nebraska
+29,Nevada,58,nevada
+30,"New Hampshire",99,newhampshire
+31,"New Jersey",290,newjersey
+32,"New Mexico",50,newmexico
+33,"New York",596,newyork
+34,"North Carolina",569,northcarolina
+35,"North Dakota",90,northdakota
+36,Ohio,772,ohio
+37,Oklahoma,188,oklahoma
+38,Oregon,201,oregon
+39,Pennsylvania,732,pennsylvania
+40,"Puerto Rico",17,puertorico
+41,"Rhode Island",50,rhodeisland
+42,"South Carolina",365,southcarolina
+43,"South Dakota",88,southdakota
+44,Tennessee,294,tennessee
+45,Texas,849,texas
+46,Utah,111,utah
+47,Vermont,65,vermont
+48,Virginia,347,virginia
+49,"Virgin Islands",4,virginislands
+50,Washington,289,washington
+51,"West Virginia",110,westvirginia
+52,Wisconsin,509,wisconsin
+53,Wyoming,48,wyoming

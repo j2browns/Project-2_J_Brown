@@ -1,0 +1,118 @@
+p {
+  text-align: left;
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100px;
+  text-align: center;
+}
+
+
+body,
+html {
+  height: 100%;
+  font: Verdana, Helvetica, sans-serif;
+}
+
+
+#map {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 800px;  
+  width: 75%;
+  margin-left: 50px;
+}
+
+#doughnut {
+  height: 100%;
+  width: 700;;
+  align-content: center;
+}
+
+.legend {
+  padding: 15px;
+  background: white;
+  line-height: 50px;
+  box-shadow: 0 0 15px;
+  font: 14px Verdana, Helvetica, sans-serif;
+  width: auto;
+  border-radius: 8px;
+}
+
+.legend h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.legend span {
+  position: relative;
+  bottom: 5px;
+  font-size: 16px;
+  font-style: strong;
+}
+
+.legend .public {
+  color: #7FFF00;
+}
+
+.legend .private {
+  color: #DC143C;
+}
+
+.legend .semiPrivate {
+  color: #5F9EA0;
+}
+
+.legend .resort {
+  color: #00FFFF;
+}
+
+.legend .military {
+  color: #000000;
+}
+
+table {
+  font: Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+
+#form {
+  position: center;
+  width: 450px;;
+
+}
+
+#filter-btn {
+  box-shadow: 0 0 3px;
+  border-radius: 4px;
+  align-content: center;
+}
+
+#filter-btn-handicap {
+  box-shadow: 0 0 3px;
+  border-radius: 4px;
+  align-content: center;
+}
+
+panel {
+  background-color: #D3D3D3;
+}
+
+form-group {
+  background-color: #D3D3D3;
+}
+
+button {
+  position: center;
+}
+
+output {
+  display: inline;
+}

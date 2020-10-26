@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Title of Home Page -->
+    <title>Mississippi River Golf Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <script>
+        var golf = '{{golf|safe}}'
+        console.log(golf)
+    </script>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/site.webmanifest">
+
+
+</head>
+
+
+
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Mississippi River Golf Adventure</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/search">Course Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+    <div class="row">
+        <div class="col-md-3">
+            <iframe src="https://giphy.com/embed/fxOkhf5sUiK5ST3gWC" width="300" height="300" frameBorder="0"
+                class="giphy-embed" allowFullScreen></iframe>
+            <p><a href="https://giphy.com/gifs/SportsManias-fxOkhf5sUiK5ST3gWC">via GIPHY</a></p>
+        </div>
+        <div class="col-md-7">
+            <h2>Grab your clubs and let's go!</h2>
+            <br>
+            <p>Just as Tom Sawyer and Huckelberry Finn did, take a trip down the Mighty Mississippi River! Except on
+                your journey, take a stop along one of the many golf courses along the river. </p><br><br>
+            <h3>About the Map:</h3>
+            <br>
+            <p>We chose the states along the Mississippi River to plot our golf course data. Within this map, you may
+                view courses by access: private, public, semi-private, resort, and military. Mouse over each location
+                for additional details or click on a marker to see the open season and slope details!</p>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+
+
+
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+    <!-- ChartJS  JS (used for doughnut plot)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+
+
+    <!-- ChartJS  JS (used for radar plot)-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+    <!-- API Key -->
+    <script type="text/javascript" src="../static/js/config.js"></script>
+
+
+    <!-- JavaScript -->
+    <!-- <script type="text/javascript" src="../static/js/app.js"></script> -->
+    <script type="text/javascript" src="../static/js/app_1.js"></script>
+    <script type="text/javascript" src="../static/js/app_2.js"></script>
+</body>
+<footer class="footer">
+</footer>
+
+
+</html>
